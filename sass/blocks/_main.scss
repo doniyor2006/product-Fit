@@ -1,0 +1,25 @@
+.main__paragraph{
+    color: $green_color;
+    text-align: center;
+    margin: 25px 0;
+}
+.main__inner{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+.container__link3{
+    @extend %button ;
+   
+}
+.container__button{
+    margin: 40px auto;
+    text-align: center;
+}
+@media (min-width:0) and (max-width:586px) {
+    .main__item2{
+        display: none;
+        justify-content: center;
+    }
+}

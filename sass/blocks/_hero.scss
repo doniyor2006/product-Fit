@@ -1,0 +1,39 @@
+.hero__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin:150px auto;
+}
+.hero__second-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__main-tags{
+    max-width: 380px;
+    margin-bottom: 40px;
+}
+.hero__htag{
+    color: $green_color;
+    margin-bottom: 15px;
+    font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+}
+ @media (min-width:0) and (max-width:586px){
+    .hero__item2{
+        display: none;
+    }
+    .hero__list{
+        justify-content: center;
+        margin-top: 130px;
+        margin-bottom: 20px;
+    }
+    .hero__second-part{
+        flex-direction: column-reverse;
+    }
+    .hero__information{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+ }
